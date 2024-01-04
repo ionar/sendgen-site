@@ -1,1 +1,89 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+$verdinho: #3B5D50;
+$roxo-logo: #9E4764;
+$laranjinha: #F7685C;
+$roxo-escuro: #4F2A40;
+$roxo-laser: #AC465A;
+
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+  color: $roxo-laser;
+}
+
+header.masthead {
+    position: relative;
+    background-color: $roxo-logo;
+    background: url("assets/bg-banner.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    // border: 1px solid green;
+}
+header.masthead:before {
+  content: "";
+  position: absolute;
+  background-color: $roxo-logo;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+header.masthead h1, header.masthead .h1 {
+  font-size: 2rem;
+}
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1, header.masthead .h1 {
+    font-size: 3rem;
+  }
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+  
+
+.bg-verdinho{
+    background-color: #3B5D50;
+}
+
+.bg-roxo-logo {
+  background-color: $roxo-logo;
+}

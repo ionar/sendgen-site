@@ -1,0 +1,24 @@
+$verdinho: #3B5D50;
+$roxo-logo: #9E4764;
+$laranjinha: #F7685C;
+$roxo-escuro: #4F2A40;
+$roxo-laser: #AC465A;
+
+.call-to-action {
+    position: relative;
+    background-color: #343a40;
+    background: url("../../../assets/bg-call-to-action-footer.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  .call-to-action:before {
+    content: "";
+    position: absolute;
+    background-color: $roxo-logo;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+  }

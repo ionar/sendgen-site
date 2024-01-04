@@ -1,0 +1,18 @@
+$verdinho: #3B5D50;
+$roxo-logo: #9E4764;
+$laranjinha: #F7685C;
+$roxo-escuro: #4F2A40;
+$roxo-laser: #AC465A;
+
+footer.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+a {
+    color: $roxo-logo;
+}
+
+a:hover {
+    color: $roxo-escuro;
+}

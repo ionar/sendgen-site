@@ -1,0 +1,28 @@
+$verdinho: #3B5D50;
+$roxo-logo: #9E4764;
+$laranjinha: #F7685C;
+$roxo-escuro: #4F2A40;
+$roxo-laser: #AC465A;
+
+.estatico {
+    background-color: transparent;
+    transition: background-color 300ms ease-out;
+}
+
+.sobreposto {
+    transition: background-color 300ms ease-out;
+    background-color: $roxo-logo;
+    -webkit-box-shadow: 0px 6px 12px -6px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 6px 12px -6px rgba(0,0,0,0.6);
+    box-shadow: 0px 6px 12px -6px rgba(0,0,0,0.6);
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #ccc;
+    //text-shadow: 0px 6px 12px -6px rgba(0,0,0,0.9); ;
+}
